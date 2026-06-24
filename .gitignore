@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# Yarn (Berry / PnP) generated artifacts
+.pnp.*
+frontend/.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+frontend/.yarn/cache
+frontend/.yarn/unplugged
+frontend/.yarn/build-state.yml
+frontend/.yarn/install-state.gz
+
+# build output
+dist/
+frontend/dist/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.local

@@ -13,6 +13,9 @@ frontend/.yarn/unplugged
 frontend/.yarn/build-state.yml
 frontend/.yarn/install-state.gz
 
+.cursor/
+
+
 # build output
 dist/
 frontend/dist/

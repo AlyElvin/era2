@@ -19,6 +19,7 @@ export const Chip = React.forwardRef<HTMLButtonElement, ChipProps>(
         "inline-flex items-center gap-1.5 px-3.5 h-7 rounded-full",
         "text-[13px] font-medium leading-none",
         "border transition-colors duration-200",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
         active
           ? "bg-accent border-primary text-[#ff7a3d]"
           : "bg-card border-[hsl(var(--border))] text-muted-foreground hover:text-foreground hover:border-[hsl(20_17%_20%)]",
